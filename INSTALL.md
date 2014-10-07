@@ -201,7 +201,8 @@ Run `ffmpeg -codecs | grep fdk` and make sure that the output has this line:
 
 ## Build libilclient
 
-From now on, all steps are performed on Raspberry Pi.
+From now on, all steps are performed on Raspberry Pi. Make sure that following packages are installed:
+glibc
 
     $ cd /opt/vc/src/hello_pi/libs/ilclient
     $ make
